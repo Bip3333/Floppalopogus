@@ -8,7 +8,7 @@ int main()
 
     int hoursLeft = 4 - hours;
 
-    if(hours < 4)
+    if(hoursLeft < 4)
     {
         printf("You need to do %d more hours of revision. \n", hoursLeft);
     }
@@ -17,3 +17,4 @@ int main()
         printf("Well done, take a break. \n");
     }
 }
+
